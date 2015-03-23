@@ -1,0 +1,12 @@
+/**
+ * Contains styling for the header section of the application.
+ */
+
+aside {
+  width: 12rem;
+  background-color: azure;
+}
+
+aside > ul li {
+  list-style: none;
+}

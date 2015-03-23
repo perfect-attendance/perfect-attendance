@@ -1,0 +1,10 @@
+/**
+ * # Perfect Attendace Footer (pa-footer)
+ *
+ * Contains styling for the pa-footer section of the application.
+ */
+
+#pa-footer {
+  background-color: slategray;
+  text-align: center;
+}

@@ -1,0 +1,30 @@
+/**
+ * Contains styling for the header section of the application.
+ */
+
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-between;
+  background-color: slategray;
+  padding: 0 1rem 0;
+}
+
+nav > * {
+  cursor: pointer;
+}
+
+nav > ul li {
+  text-decoration: underline;
+  display: inline;
+}
+
+#branding :first-child {
+  margin-right: 1rem;
+}
+
+#branding i {
+  padding: .2rem .7rem .2rem;
+  background-color: pink;
+}

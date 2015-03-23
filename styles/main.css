@@ -1,3 +1,30 @@
-p {
-  background-color: red;
+/**
+ * This is the main css document, and the only one linked in the source please
+ * use the @import for other style declarations.
+ */
+
+@import 'nav.css';
+@import 'footer.css';
+@import 'aside.css';
+
+html, body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+main {
+  display: flex;
+  flex: 1;
+  background-color: gray;
+  overflow: auto;
+}
+
+#main-content {
+  flex: 1 100%;
+  overflow: auto;
+  background-color: gray;
+  padding: 0 1rem 1rem;
 }
