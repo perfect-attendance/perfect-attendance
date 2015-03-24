@@ -7,16 +7,16 @@
  *
  * - Remember to always enclose your code in a closure to avoid pollution of
  *   the global scope.
- *
  */
 
 (function () {
   'use strict';
 
-  function addHello(element) {
-    element.innerHTML = '<h1>Hello World</h1>' + element.innerHTML;
-  }
+  var Module = PA.Module;
 
-  var mainContent = document.querySelector('#main-content');
-  addHello(mainContent);
+  // initialize nav
+  var report = new Module('Reports', '<h1> Aside here</h1>', 'This is the main content');
+  report.view.addEventListener('click', function () {
+    report.display();
+  });
 })();
