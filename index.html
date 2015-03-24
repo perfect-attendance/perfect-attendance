@@ -7,26 +7,31 @@
   <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
-  <nav>
-    <div id="branding">
-      <i class="pa pa-logo"></i><span>Perfect Attendance</span>
+  <header class="pa-header">
+    <div class="pa-branding">
+      <i class="pa pa-logo"></i>
+      <span>Perfect Attendance</span>
     </div>
-    <ul>
-    </ul>
-  </nav>
+    <div class="pa-search-bar">
+      <input type="text" placeholder="Search">
+    </div>
+  </header>
   <main>
     <aside>
+      <span class="pa-menu-label">Menu</span>
+      <ul class="pa-module-container">
+      </ul>
     </aside>
     <div id="main-content">
       No content Displayed! Click on one of the Menu Item provided.
     </div>
   </main>
-  <footer id="pa-footer">
-    <p>(c) 2015 Perfect Attendance</p>
+  <footer class="pa-footer">
+    <p>(c) 2015 CHB and Friends</p>
   </footer>
   <!-- Link all the JavaScript files below -->
   <script src="scripts/init.js"></script>
-  <script src="scripts/model/Module.js"></script>
+  <script src="scripts/models/Module.js"></script>
   <!-- Application Entry Point -->
   <script src="scripts/app.js"></script>
 </body>

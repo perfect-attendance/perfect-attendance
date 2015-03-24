@@ -3,7 +3,7 @@
  * use the @import for other style declarations.
  */
 
-@import 'nav.css';
+@import 'header.css';
 @import 'footer.css';
 @import 'aside.css';
 
@@ -13,18 +13,20 @@ html, body {
   height: 100%;
   width: 100%;
   margin: 0;
+  font-family: Helvetica;
 }
 
 main {
   display: flex;
   flex: 1;
-  background-color: gray;
+  background-color: ivory;
   overflow: auto;
 }
 
 #main-content {
   flex: 1 100%;
   overflow: auto;
-  background-color: gray;
-  padding: 0 1rem 1rem;
+  border: dashed .1rem dimgray;
+  padding: .5rem 1rem 1rem;
+  margin: .2rem;
 }

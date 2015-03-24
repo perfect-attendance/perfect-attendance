@@ -1,6 +1,7 @@
 /**
  * This script should be the first script loaded.
  */
+
 (function () {
   'use strict';
 

@@ -14,9 +14,11 @@
 
   var Module = PA.Module;
 
-  // initialize nav
-  var report = new Module('Reports', '<h1> Aside here</h1>', 'This is the main content');
-  report.view.addEventListener('click', function () {
-    report.display();
-  });
+  // initialize menu
+  var home = new Module('Home', 'This is the home view.');
+  var rooms = new Module('Rooms', 'This is the rooms view.');
+  var instructors = new Module('Instructors', 'This is the instructors view.');
+  var downloads = new Module('Downloads', 'This is the downloads view.');
+  var about = new Module('About', 'This is the about view.');
+  home.display();
 })();

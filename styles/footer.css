@@ -4,7 +4,8 @@
  * Contains styling for the pa-footer section of the application.
  */
 
-#pa-footer {
-  background-color: slategray;
+.pa-footer {
+  color: white;
+  background-color: #404041;
   text-align: center;
 }

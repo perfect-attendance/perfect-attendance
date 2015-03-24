@@ -2,29 +2,30 @@
  * Contains styling for the header section of the application.
  */
 
-nav {
+.pa-header {
   display: flex;
   flex-direction: row;
   align-items: baseline;
   justify-content: space-between;
-  background-color: slategray;
-  padding: 0 1rem 0;
+  color: white;
+  background-color: #404041;
+  padding: .5rem 1rem .5rem;
 }
 
-nav > * {
-  cursor: pointer;
-}
-
-nav > ul li {
+.pa-header > ul li {
   text-decoration: underline;
   display: inline;
 }
 
-#branding :first-child {
+.pa-branding {
+  cursor: pointer;
+}
+
+.pa-branding :first-child {
   margin-right: 1rem;
 }
 
-#branding i {
+.pa-branding i {
   padding: .2rem .7rem .2rem;
   background-color: pink;
 }

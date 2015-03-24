@@ -3,10 +3,30 @@
  */
 
 aside {
+  text-align: center;
   width: 12rem;
-  background-color: azure;
+  border: dashed .1rem dimgray;
+  color: #123;
+  padding: .2rem 0 0;
+  margin: .2rem;
+}
+
+aside > ul {
+  margin: .3rem 0 .5rem;
+  padding: 0;
 }
 
 aside > ul li {
   list-style: none;
+  cursor: pointer;
+  border: solid gray .1rem;
+  margin: .2rem;
+}
+
+aside > ul li:hover {
+  text-decoration: underline;
+}
+
+.pa-menu-label {
+  font-weight: bold;
 }
