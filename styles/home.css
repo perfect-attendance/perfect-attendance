@@ -13,14 +13,17 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  padding: 1rem 0 1rem;
 }
 
 .pa-dashboard-item {
   display: flex;
   justify-content: center;
-  padding-bottom: 4rem;
-  min-width: 50%;
-  max-width: 50%;
+  border: dotted .1rem;
+}
+
+.pa-dashboard-item:hover {
+  border: solid .3rem darkgray;
 }
 
 .pa-dashboard-item img {
