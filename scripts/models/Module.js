@@ -14,6 +14,7 @@
     this.hash = '#' + pathname;
     this.viewUrl = viewUrl;
     this.controller = controller;
+    attachToMenu = arguments[arguments.length - 1];
     if (attachToMenu !== false) {
       this.attachToMenu();
       this.renderOnClick(true);
