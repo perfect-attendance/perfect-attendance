@@ -6,12 +6,14 @@
 
   var PA = window.PA;
   var currentModule = PA.currentModule;
+  var homeCtrl = PA.homeCtrl;
 
-  function Module(name, pathname, viewUrl, attachToMenu) {
+  function Module(name, pathname, viewUrl, controller, attachToMenu) {
     this.name = name;
     this.pathname = pathname;
     this.hash = '#' + pathname;
     this.viewUrl = viewUrl;
+    this.controller = controller;
     if (attachToMenu !== false) {
       this.attachToMenu();
       this.renderOnClick(true);
@@ -19,7 +21,14 @@
   }
 
   Module.prototype.render = function () {
+    var thisModule = this;
     var hash = window.location.hash;
+    var showInDom = function (mod) {
+      var main = document.querySelector('#main-content');
+      thisModule.mainView = main;
+      main.innerHTML = thisModule.main;
+      if (typeof thisModule.controller === 'function') thisModule.controller();
+    };
     if (hash) {
       window.location.href = window.location.href.replace(hash, this.hash);
     }
@@ -27,20 +36,17 @@
     currentModule = this;
     if (!this.fetched) {
       // AJAX the view
-      var thisModule = this;
       var xhr = new XMLHttpRequest();
       xhr.open('GET', thisModule.viewUrl, true);
       xhr.responseType = 'text';
       xhr.onload = function (e) {
         thisModule.main = this.response;
-        var main = document.querySelector('#main-content');
-        main.innerHTML = thisModule.main;
+        showInDom();
         thisModule.fetched = true;
       };
       xhr.send();
     } else {
-      var main = document.querySelector('#main-content');
-      main.innerHTML = this.main;
+      showInDom();
     }
   };
 
@@ -50,9 +56,9 @@
       thisModule.render();
     };
     if (renderFlag) {
-      this.view.addEventListener('click', this.renderOnClick);
+      this.menuView.addEventListener('click', this.renderOnClick);
     } else {
-      this.view.removeEventListener('click', this.renderOnClick);
+      this.menuView.removeEventListener('click', this.renderOnClick);
     }
     return this.renderOnClick;
   };
@@ -63,6 +69,6 @@
     var li = document.createElement('li');
     li.innerHTML = this.name;
     ul.appendChild(li);
-    this.view = li;
+    this.menuView = li;
   };
 })();

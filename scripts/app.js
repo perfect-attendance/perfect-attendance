@@ -13,12 +13,17 @@
   'use strict';
 
   var Module = PA.Module;
+  var homeCtrl = PA.homeCtrl;
+  var roomsCtrl = PA.roomsCtrl;
+  var instructorsCtrl = PA.instructorsCtrl;
+  var downloadsCtrl = PA.downloadsCtrl;
+  var aboutCtrl = PA.aboutCtrl;
+  var mods = window.PA.mods;
   // also modifiles window.PA.mods;
 
   function renderModuleInLocation() {
     var hash = window.location.hash;
     var pathname = window.location.pathname;
-    var mods = window.PA.mods;
     var found = false;
     var renderMod = function (mod) {
       found = true;
@@ -42,11 +47,11 @@
   };
 
   // initialize menu
-  var home = new Module('Home', '/', 'views/home.html');
-  var rooms = new Module('Rooms', '/rooms', 'views/rooms.html');
-  var instructors = new Module('Instructors', '/instructors', 'views/instructors.html');
-  var downloads = new Module('Downloads', '/downloads', 'views/downloads.html');
-  var about = new Module('About', '/about', 'views/about.html');
+  var home = new Module('Home', '/', 'views/home.html', homeCtrl);
+  var rooms = new Module('Rooms', '/rooms', 'views/rooms.html', roomsCtrl);
+  var instructors = new Module('Instructors', '/instructors', 'views/instructors.html', instructorsCtrl);
+  var downloads = new Module('Downloads', '/downloads', 'views/downloads.html', downloadsCtrl);
+  var about = new Module('About', '/about', 'views/about.html', aboutCtrl);
   var mods = [home, rooms, instructors, downloads, about];
   PA.mods = mods;
 
