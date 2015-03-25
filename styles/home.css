@@ -1,0 +1,28 @@
+/**
+ * Contains styling for home view.
+ */
+
+.pa-dashboard-header h1 {
+  font-family: Arial;
+  color: gray;
+  font-weight: bold;
+  text-align: center;
+}
+
+.pa-dashboard-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.pa-dashboard-item {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 4rem;
+  min-width: 50%;
+  max-width: 50%;
+}
+
+.pa-dashboard-item img {
+  cursor: pointer;
+}

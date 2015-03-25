@@ -6,6 +6,7 @@
 @import 'header.css';
 @import 'footer.css';
 @import 'aside.css';
+@import 'home.css';
 
 html, body {
   display: flex;
