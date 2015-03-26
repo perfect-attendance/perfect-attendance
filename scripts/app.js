@@ -12,6 +12,7 @@
 (function () {
   'use strict';
 
+  var PA = window.PA;
   var Module = PA.Module;
   var homeCtrl = PA.homeCtrl;
   var roomsCtrl = PA.roomsCtrl;
@@ -19,7 +20,27 @@
   var downloadsCtrl = PA.downloadsCtrl;
   var aboutCtrl = PA.aboutCtrl;
   var mods = window.PA.mods;
-  // also modifiles window.PA.mods;
+  // also modifies window.PA.mods;
+  // also modifies window.PA.menuIsDisplayed;
+
+  function addMenuToggle() {
+    PA.menuIsToggled = false;
+    var toggleMenuButton = document.querySelector('.pa-controls > .pa-button');
+    var displayMenu = function (display) {
+      var aside = document.querySelector('main > aside');
+      toggleMenuButton.classList.toggle('pa-button-active');
+      if (display) {
+        aside.style.display = 'initial';
+      } else {
+        aside.style.display = 'none';
+      }
+    };
+    var toggleMenuClicked = function () {
+      PA.menuIsDisplayed = !PA.menuIsDisplayed;
+      displayMenu(PA.menuIsDisplayed);
+    };
+    toggleMenuButton.addEventListener('click', toggleMenuClicked);
+  }
 
   function renderModuleInLocation() {
     var hash = window.location.hash;
@@ -55,6 +76,8 @@
   var mods = [home, rooms, instructors, downloads, about];
   PA.mods = mods;
 
+
   renderModuleInLocation();
+  addMenuToggle();
   window.addEventListener('hashchange', renderModuleInLocation);
 })();

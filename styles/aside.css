@@ -3,6 +3,7 @@
  */
 
 aside {
+  display: none;
   text-align: center;
   width: 12rem;
   border: dashed .1rem dimgray;
