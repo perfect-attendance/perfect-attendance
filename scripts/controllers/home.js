@@ -6,7 +6,7 @@
       mod.render();
     };
     component.addEventListener('click', render);
-    return { component, render };
+    return { component: component, render: render };
   }
 
   // expose the controller to the global scope
