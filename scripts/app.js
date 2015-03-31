@@ -17,7 +17,7 @@
   var homeCtrl = PA.homeCtrl;
   var roomsCtrl = PA.roomsCtrl;
   var instructorsCtrl = PA.instructorsCtrl;
-  var downloadsCtrl = PA.downloadsCtrl;
+  var reviewCtrl = PA.reviewCtrl;
   var aboutCtrl = PA.aboutCtrl;
   var mods = window.PA.mods;
   // also modifies window.PA.mods;
@@ -69,11 +69,11 @@
 
   // initialize menu
   var home = new Module('Home', '/', 'views/home.html', homeCtrl);
+  var review = new Module('Review', '/review', 'views/review.html', reviewCtrl);
   var rooms = new Module('Rooms', '/rooms', 'views/rooms.html', roomsCtrl);
   var instructors = new Module('Instructors', '/instructors', 'views/instructors.html', instructorsCtrl);
-  var downloads = new Module('Downloads', '/downloads', 'views/downloads.html', downloadsCtrl);
   var about = new Module('About', '/about', 'views/about.html', aboutCtrl);
-  var mods = [home, rooms, instructors, downloads, about];
+  var mods = [home, review, rooms, instructors, about];
   PA.mods = mods;
 
 
