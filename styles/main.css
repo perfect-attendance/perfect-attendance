@@ -7,6 +7,8 @@
 @import 'footer.css';
 @import 'aside.css';
 @import 'home.css';
+@import 'table.css';
+@import 'instructor.css';
 
 html, body {
   display: flex;

@@ -5,6 +5,5 @@
   PA.reviewCtrl = function () {
     // imports
     var PA = window.PA;
-
   };
 })();
