@@ -1,0 +1,157 @@
+{
+  "schedule": [
+    {
+      "timeFrom": "12:30", 
+      "courseNo": 9681, 
+      "instructorName": "Jonathan Ramirez", 
+      "timeTo": "11:30", 
+      "roomNo": "s527", 
+      "day": "TThS", 
+      "subject": "Social and Professional Issues in Information Technology"
+    }, 
+    {
+      "timeFrom": "5:00", 
+      "courseNo": 9598, 
+      "instructorName": "Benedick Bacani", 
+      "timeTo": "4:00", 
+      "roomNo": "s425", 
+      "day": "MWF", 
+      "subject": "Information System Planning"
+    }, 
+    {
+      "timeFrom": "4:00", 
+      "courseNo": 9603, 
+      "instructorName": "Benedick Bacani", 
+      "timeTo": "3:00", 
+      "roomNo": "s425", 
+      "day": "MWF", 
+      "subject": "Information System Planning"
+    }, 
+    {
+      "timeFrom": "10:30", 
+      "courseNo": 9608, 
+      "instructorName": "Benedick Bacani", 
+      "timeTo": "9:30", 
+      "roomNo": "s425", 
+      "day": "MWF", 
+      "subject": "Information System Planning"
+    }, 
+    {
+      "timeFrom": "3:00", 
+      "courseNo": 9613, 
+      "instructorName": "Benedick Bacani", 
+      "timeTo": "2:00", 
+      "roomNo": "s425", 
+      "day": "MWF", 
+      "subject": "Information System Planning"
+    }, 
+    {
+      "timeFrom": "7:00", 
+      "courseNo": 9601, 
+      "instructorName": "Jonathan Ramirez", 
+      "timeTo": "6:00", 
+      "roomNo": "s527", 
+      "day": "MWF", 
+      "subject": "Technologic Presentaion and Communication"
+    }, 
+    {
+      "timeFrom": "9:30", 
+      "courseNo": 9606, 
+      "instructorName": "Jonathan Ramirez", 
+      "timeTo": "8:30", 
+      "roomNo": "s426", 
+      "day": "MWF", 
+      "subject": "Technologic Presentaion and Communication"
+    }, 
+    {
+      "timeFrom": "11:30", 
+      "courseNo": 9611, 
+      "instructorName": "Jonathan Ramirez", 
+      "timeTo": "10:30", 
+      "roomNo": "s426", 
+      "day": "MWF", 
+      "subject": "Technologic Presentaion and Communication"
+    }, 
+    {
+      "timeFrom": "6:00", 
+      "courseNo": 9616, 
+      "instructorName": "Jonathan Ramirez", 
+      "timeTo": "5:00", 
+      "roomNo": "s527", 
+      "day": "MWF", 
+      "subject": "Technologic Presentation and Communication"
+    }, 
+    {
+      "timeFrom": "6:00", 
+      "courseNo": 9564, 
+      "instructorName": "Rhea Nana", 
+      "timeTo": "5:00", 
+      "roomNo": "s527", 
+      "day": "TThS", 
+      "subject": "Personality Development"
+    }, 
+    {
+      "timeFrom": "8:30", 
+      "courseNo": 9407, 
+      "instructorName": "Zenaida Garambas", 
+      "timeTo": "7:30", 
+      "roomNo": "s524", 
+      "day": "MWF", 
+      "subject": "Operations Research 1"
+    }, 
+    {
+      "timeFrom": "9:30", 
+      "courseNo": 9408, 
+      "instructorName": "", 
+      "timeTo": "8:30", 
+      "roomNo": "s525", 
+      "day": "MWF", 
+      "subject": "Numerical Methods"
+    }, 
+    {
+      "timeFrom": "3:00", 
+      "courseNo": 9401, 
+      "instructorName": "", 
+      "timeTo": "2:00", 
+      "roomNo": "s525", 
+      "day": "TThS", 
+      "subject": "Theory and Logic"
+    }, 
+    {
+      "timeFrom": "11:30", 
+      "courseNo": 9409, 
+      "instructorName": "De Vera", 
+      "timeTo": "10:30", 
+      "roomNo": "s525", 
+      "day": "MWF", 
+      "subject": "Abstract Algebra"
+    }, 
+    {
+      "timeFrom": "3:00", 
+      "courseNo": 9513, 
+      "instructorName": "Revilla", 
+      "timeTo": "2:00", 
+      "roomNo": "s524", 
+      "day": "TThS", 
+      "subject": "College Algebra"
+    }, 
+    {
+      "timeFrom": "9:30", 
+      "courseNo": 9519, 
+      "instructorName": "Revilla", 
+      "timeTo": "8:30", 
+      "roomNo": "s521", 
+      "day": "TThS", 
+      "subject": "College Algebra"
+    }, 
+    {
+      "timeFrom": "3:00", 
+      "courseNo": 9626, 
+      "instructorName": "Zenaida Garambas", 
+      "timeTo": "2:00", 
+      "roomNo": "s521", 
+      "day": "TThS", 
+      "subject": "College Algebra"
+    }
+  ]
+}

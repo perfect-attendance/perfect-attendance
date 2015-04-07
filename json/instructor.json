@@ -1,0 +1,60 @@
+{
+  "instructor": [
+    {
+      "department": "IT", 
+      "instructorName": "Randy Flores"
+    }, 
+    {
+      "department": "IT", 
+      "instructorName": "Randy Domantay"
+    }, 
+    {
+      "department": "IT", 
+      "instructorName": "Mark Jeffrey Parra"
+    }, 
+    {
+      "department": "IT", 
+      "instructorName": "Carlos Ben Montes"
+    }, 
+    {
+      "department": "IT", 
+      "instructorName": "Maria Concepcion Clemente"
+    }, 
+    {
+      "department": "GPC", 
+      "instructorName": "Benedict Bacani"
+    }, 
+    {
+      "department": "IT", 
+      "instructorName": "Lambert Famorca"
+    }, 
+    {
+      "department": "IT", 
+      "instructorName": "Dalos Miguel"
+    }, 
+    {
+      "department": "IT", 
+      "instructorName": "Ali Mangaliag"
+    }, 
+    {
+      "department": "IT", 
+      "instructorName": "Jonathan Ramirez"
+    }, 
+    {
+      "department": "IT", 
+      "instructorName": "Laurence Balmeo"
+    }, 
+    {
+      "department": "CAD", 
+      "instructorName": "John Vital"
+    }, 
+    {
+      "department": "CAD", 
+      "instructorName": "Rhea Nana"
+    }, 
+    {
+      "department": "MATH", 
+      "instructorName": "Zenaida Garambas"
+    }
+  ]
+}

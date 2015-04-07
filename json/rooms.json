@@ -1,0 +1,80 @@
+{
+  "rooms": [
+    {
+      "roomNo": "s324", 
+      "floor": "third"
+    }, 
+    {
+      "roomNo": "s326", 
+      "floor": "third"
+    }, 
+    {
+      "roomNo": "s420", 
+      "floor": "fourth"
+    }, 
+    {
+      "roomNo": "s421", 
+      "floor": "fourth"
+    }, 
+    {
+      "roomNo": "s422", 
+      "floor": "fourth"
+    }, 
+    {
+      "roomNo": "s423", 
+      "floor": "fourth"
+    }, 
+    {
+      "roomNo": "s425", 
+      "floor": "fourth"
+    }, 
+    {
+      "roomNo": "s426", 
+      "floor": "fourth"
+    }, 
+    {
+      "roomNo": "s427", 
+      "floor": "fourth"
+    }, 
+    {
+      "roomNo": "s428", 
+      "floor": "fourth"
+    }, 
+    {
+      "roomNo": "s520", 
+      "floor": "fifth"
+    }, 
+    {
+      "roomNo": "s521", 
+      "floor": "fifth"
+    }, 
+    {
+      "roomNo": "s522", 
+      "floor": "fifth"
+    }, 
+    {
+      "roomNo": "s523", 
+      "floor": "fifth"
+    }, 
+    {
+      "roomNo": "s524", 
+      "floor": "fifth"
+    }, 
+    {
+      "roomNo": "s525", 
+      "floor": "fifth"
+    }, 
+    {
+      "roomNo": "s526", 
+      "floor": "fifth"
+    }, 
+    {
+      "roomNo": "s527", 
+      "floor": "fifth"
+    }, 
+    {
+      "roomNo": "s528", 
+      "floor": "fifth"
+    }
+  ]
+}
