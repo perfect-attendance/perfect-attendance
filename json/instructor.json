@@ -2,59 +2,83 @@
   "instructors": [
     {
       "department": "IT", 
-      "instructorName": "Randy Flores"
+      "instructorName": "Randy Flores",
+      "instructorId":"2100000"
     }, 
     {
       "department": "IT", 
-      "instructorName": "Randy Domantay"
+      "instructorName": "Randy Domantay",
+      "instructorId":"12100001"
     }, 
     {
       "department": "IT", 
-      "instructorName": "Mark Jeffrey Parra"
+      "instructorName": "Mark Jeffrey Parra",
+      "instructorId":"2100002"
     }, 
     {
       "department": "IT", 
-      "instructorName": "Carlos Ben Montes"
+      "instructorName": "Carlos Ben Montes",
+      "instructorId":"2100003"
     }, 
     {
       "department": "IT", 
-      "instructorName": "Maria Concepcion Clemente"
+      "instructorName": "Maria Concepcion Clemente",
+      "instructorId":"2100004"
     }, 
     {
       "department": "GPC", 
-      "instructorName": "Benedict Bacani"
+      "instructorName": "Benedict Bacani",
+      "instructorId":"2100005"
     }, 
     {
       "department": "IT", 
-      "instructorName": "Lambert Famorca"
+      "instructorName": "Lambert Famorca",
+      "instructorId":"2100006"
     }, 
     {
       "department": "IT", 
-      "instructorName": "Dalos Miguel"
+      "instructorName": "Dalos Miguel",
+      "instructorId":"2100007"
     }, 
     {
       "department": "IT", 
-      "instructorName": "Ali Mangaliag"
+      "instructorName": "Ali Mangaliag",
+      "instructorId":"2100008"
     }, 
     {
       "department": "IT", 
-      "instructorName": "Jonathan Ramirez"
+      "instructorName": "Jonathan Ramirez",
+      "instructorId":"2100009"
     }, 
     {
       "department": "IT", 
-      "instructorName": "Laurence Balmeo"
+      "instructorName": "Laurence Balmeo",
+      "instructorId":"2100010"
     }, 
     {
       "department": "CAD", 
-      "instructorName": "John Vital"
+      "instructorName": "John Vital",
+      "instructorId":"2100011"
     }, 
     {
       "department": "CAD", 
-      "instructorName": "Rhea Nana"
+      "instructorName": "Rhea Nana",
+      "instructorId":"2100012"
     }, 
     {
       "department": "MATH", 
-      "instructorName": "Zenaida Garambas"
+      "instructorName": "Zenaida Garambas",
+      "instructorId":"2100013"
+    },
+    {
+      "department":"MATH",
+      "instructorName":"Vicoy Ferrer",
+      "instructorId":"2100014"
+    },
+    {
+      "department":"IT",
+      "instructorName":"Beverly Ferrer",
+      "instructorId":"2100015"
     }
   ]
 }
