@@ -23,7 +23,15 @@
   // also modifies window.PA.mods;
   // also modifies window.PA.menuIsDisplayed;
 
-  function addMenuToggle() {
+  // initialize menu
+  var home = new Module('Home', '/', 'views/home.html', homeCtrl);
+  var review = new Module('Review', '/review', 'views/review.html', reviewCtrl);
+  var rooms = new Module('Rooms', '/rooms', 'views/rooms.html', roomsCtrl);
+  var instructors = new Module('Instructors', '/instructors', 'views/instructors.html', instructorsCtrl);
+  var about = new Module('About', '/about', 'views/about.html', aboutCtrl);
+  var mods = [home, review, rooms, instructors, about];
+
+  var addMenuToggle = function addMenuToggle() {
     PA.menuIsToggled = false;
     var toggleMenuButton = document.querySelector('.pa-controls > .pa-button');
     var displayMenu = function (display) {
@@ -40,9 +48,9 @@
       displayMenu(PA.menuIsDisplayed);
     };
     toggleMenuButton.addEventListener('click', toggleMenuClicked);
-  }
+  };
 
-  function renderModuleInLocation() {
+  var renderModuleInLocation = function renderModuleInLocation() {
     var hash = window.location.hash;
     var pathname = window.location.pathname;
     var found = false;
@@ -67,16 +75,19 @@
     }
   };
 
-  // initialize menu
-  var home = new Module('Home', '/', 'views/home.html', homeCtrl);
-  var review = new Module('Review', '/review', 'views/review.html', reviewCtrl);
-  var rooms = new Module('Rooms', '/rooms', 'views/rooms.html', roomsCtrl);
-  var instructors = new Module('Instructors', '/instructors', 'views/instructors.html', instructorsCtrl);
-  var about = new Module('About', '/about', 'views/about.html', aboutCtrl);
-  var mods = [home, review, rooms, instructors, about];
-  PA.mods = mods;
+  var ready = function () {
+    PA.mods = mods;
+    renderModuleInLocation();
+    addMenuToggle();
+    window.addEventListener('hashchange', renderModuleInLocation);
+  };
 
-  renderModuleInLocation();
-  addMenuToggle();
-  window.addEventListener('hashchange', renderModuleInLocation);
+  var gotInstructors;
+  PA.getInstructors(function (instructors) {
+    gotInstructors = true;
+    PA.instructors = instructors; // export instructors object;
+    if (gotInstructors) {
+      ready();
+    };
+  });
 })();
