@@ -76,7 +76,6 @@
   var mods = [home, review, rooms, instructors, about];
   PA.mods = mods;
 
-
   renderModuleInLocation();
   addMenuToggle();
   window.addEventListener('hashchange', renderModuleInLocation);

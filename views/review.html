@@ -1,37 +1,35 @@
-<h1>This is the Review View</h1>
-<table>
-  <thead>
-    <tr>
-      <th>Room</th>
-      <th>Instructor</th>
-      <th>Date</th>
-      <th>Time from</th>
-      <th>Time to</th>
-      <th>Attendance</th>
-      <th>Substitute</th>
-      <th>Substitute Instructor</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th>
-        <form>
-          <input type="radio" name="attendance" onclick="check(this.value)" value="Present">Present<br>
-          <input type="radio" name="attendance" onclick="check(this.value)" value="Absent">Absent<br>
-        </form>
-      </th>
-      <th>
-        <form>
-          <input type="radio" name="substitute" onclick="check(this.value)" value="Yes">Yes<br>
-          <input type="radio" name="substitue" onclick="check(this.value)" value="No">No<br>
-        </form>
-      </th>
-      <th></th>
-    </tr>
-  </tbody>
-</table>
+<div class="pa-review">
+  <h1>This is the Review View</h1>
+  <table>
+    <thead>
+      <tr>
+        <th>Room</th>
+        <th>Instructor</th>
+        <th>Date</th>
+        <th>Time from</th>
+        <th>Time to</th>
+        <th>Attendance</th>
+        <th>Substitute</th>
+        <th>Substitute Instructor</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Test Room</td>
+        <td>Test Instructor</td>
+        <td>Test Time from</td>
+        <td>Test Time to</td>
+        <td>Test Attendance</td>
+        <td>
+          <input type="checkbox" name="attendance">
+        </td>
+        <td>
+          <input type="checkbox" name="substitute">
+        </td>
+        <td>
+          <select id="select-1"></select>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
