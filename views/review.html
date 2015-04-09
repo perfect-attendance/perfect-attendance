@@ -2,17 +2,36 @@
 <table>
   <thead>
     <tr>
-      <th>Instructor</th>
       <th>Room</th>
-      <th>Subject</th>
-      <th>Time to</th>
+      <th>Instructor</th>
+      <th>Date</th>
       <th>Time from</th>
-      <th>Days</th>
-      <th>Occupied</th>
+      <th>Time to</th>
+      <th>Attendance</th>
       <th>Substitute</th>
       <th>Substitute Instructor</th>
-      <th>Remarks</th>
-      <th>Notes</th>
     </tr>
-  <thead>
+  </thead>
+  <tbody>
+    <tr>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th>
+        <form>
+          <input type="radio" name="attendance" onclick="check(this.value)" value="Present">Present<br>
+          <input type="radio" name="attendance" onclick="check(this.value)" value="Absent">Absent<br>
+        </form>
+      </th>
+      <th>
+        <form>
+          <input type="radio" name="substitute" onclick="check(this.value)" value="Yes">Yes<br>
+          <input type="radio" name="substitue" onclick="check(this.value)" value="No">No<br>
+        </form>
+      </th>
+      <th></th>
+    </tr>
+  </tbody>
 </table>
