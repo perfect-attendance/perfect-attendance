@@ -4,7 +4,7 @@
       "timeTo": "11:30", 
       "courseNo": 9681, 
       "instructorId": "2100009", 
-      "timeTo": "12:30", 
+      "timeFrom": "12:30", 
       "roomNo": "s527", 
       "day": "TThS", 
       "subject": "Social and Professional Issues in Information Technology"
