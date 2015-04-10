@@ -1,124 +1,124 @@
 {
   "schedule": [
     {
-      "timeTo": "11:30", 
+      "timeFrom": "11:30", 
       "courseNo": 9681, 
       "instructorId": "2100009", 
-      "timeFrom": "12:30", 
+      "timeTo": "12:30", 
       "roomNo": "s527", 
       "day": "TThS", 
       "subject": "Social and Professional Issues in Information Technology"
     }, 
     {
-      "timeTo": "4:00",
+      "timeFrom": "4:00",
       "courseNo": 9598, 
       "instructorId": "2100005", 
-      "timeFrom": "5:00", 
+      "timeTo": "5:00", 
       "roomNo": "s425", 
       "day": "MWF", 
       "subject": "Information System Planning"
     }, 
     {
-      "timeTo": "3:00", 
+      "timeFrom": "3:00", 
       "courseNo": 9603, 
       "instructorId": "2100005", 
-      "timeFrom": "4:00", 
+      "timeTo": "4:00", 
       "roomNo": "s425", 
       "day": "MWF", 
       "subject": "Information System Planning"
     }, 
     {
-      "timeTo": "9:30", 
+      "timeFrom": "9:30", 
       "courseNo": 9608, 
       "instructorId": "2100005", 
-      "timeFrom": "10:30", 
+      "timeTo": "10:30", 
       "roomNo": "s425", 
       "day": "MWF", 
       "subject": "Information System Planning"
     }, 
     {
-      "timeTo": "2:00", 
+      "timeFrom": "2:00", 
       "courseNo": 9613, 
       "instructorId": "2100005", 
-      "timeFrom": "3:00", 
+      "timeTo": "3:00", 
       "roomNo": "s425", 
       "day": "MWF", 
       "subject": "Information System Planning"
     }, 
     {
-      "timeTo": "6:00", 
+      "timeFrom": "6:00", 
       "courseNo": 9601, 
       "instructorId": "2100009", 
-      "timeFrom": "7:00", 
+      "timeTo": "7:00", 
       "roomNo": "s527", 
       "day": "MWF", 
       "subject": "Technologic Presentaion and Communication"
     }, 
     {
-      "timeTo": "8:30", 
+      "timeFrom": "8:30", 
       "courseNo": 9606, 
       "instructorId": "2100009", 
-      "timeFrom": "9:30", 
+      "timeTo": "9:30", 
       "roomNo": "s426", 
       "day": "MWF", 
       "subject": "Technologic Presentaion and Communication"
     }, 
     {
-      "timeTo": "10:30", 
+      "timeFrom": "10:30", 
       "courseNo": 9611, 
       "instructorId": "2100009", 
-      "timeFrom": "11:30", 
+      "timeTo": "11:30", 
       "roomNo": "s426", 
       "day": "MWF", 
       "subject": "Technologic Presentaion and Communication"
     }, 
     {
-      "timeTo": "5:00", 
+      "timeFrom": "5:00", 
       "courseNo": 9616, 
       "instructorId": "2100009", 
-      "timeFrom": "6:00", 
+      "timeTo": "6:00", 
       "roomNo": "s527", 
       "day": "MWF", 
       "subject": "Technologic Presentation and Communication"
     }, 
     {
-      "timeTo": "5:00", 
+      "timeFrom": "5:00", 
       "courseNo": 9564, 
       "instructorId": "2100012", 
-      "timeFrom": "6:00", 
+      "timeTo": "6:00", 
       "roomNo": "s527", 
       "day": "TThS", 
       "subject": "Personality Development"
     }, 
     {
-      "timeTo": "7:30", 
+      "timeFrom": "7:30", 
       "courseNo": 9407, 
       "instructorId": "2100013", 
-      "timeFrom": "8:30", 
+      "timeTo": "8:30", 
       "roomNo": "s524", 
       "day": "MWF", 
       "subject": "Operations Research 1"
     }, 
     {
-      "timeTo": "8:30", 
+      "timeFom": "8:30", 
       "courseNo": 9408, 
       "instructorId": "2100013", 
-      "timeFrom": "9:30", 
+      "timeTo": "9:30", 
       "roomNo": "s525", 
       "day": "MWF", 
       "subject": "Numerical Methods"
     }, 
     {
-      "timeTo": "2:00", 
+      "timeFrom": "2:00", 
       "courseNo": 9401, 
       "instructorId": "2100013", 
-      "timeFrom": "3:00", 
+      "timeTo": "3:00", 
       "roomNo": "s525", 
       "day": "TThS", 
       "subject": "Theory and Logic"
     }, 
     {
-      "timeTo": "10:30", 
+      "timeFrom": "10:30", 
       "courseNo": 9409, 
       "instructorId": "2100013", 
       "timeTo": "11:30", 
@@ -127,28 +127,28 @@
       "subject": "Abstract Algebra"
     }, 
     {
-      "timeTo": "2:00", 
+      "timeFrom": "2:00", 
       "courseNo": 9513, 
       "instructorId": "2100014", 
-      "timeFrom": "3:00", 
+      "timeTo": "3:00", 
       "roomNo": "s524", 
       "day": "TThS", 
       "subject": "College Algebra"
     }, 
     {
-      "timeTo": "8:30", 
+      "timeFrom": "8:30", 
       "courseNo": 9519, 
       "instructorId": "2100014", 
-      "timeFrom": "9:30", 
+      "timeTo": "9:30", 
       "roomNo": "s521", 
       "day": "TThS", 
       "subject": "College Algebra"
     }, 
     {
-      "timeTo": "2:00", 
+      "timeFrom": "2:00", 
       "courseNo": 9626, 
       "instructorId": "2100013", 
-      "timeFrom": "3:00", 
+      "timeTo": "3:00", 
       "roomNo": "s521", 
       "day": "TThS", 
       "subject": "College Algebra"
