@@ -15,7 +15,7 @@
     var PA = window.PA;
     var mods = window.PA.mods;
 
-    var imgBaseUrl = 'http://placehold.it/250x250/fff&text=';
+    var imgBaseUrl = 'images/';
     var currDiv;
     for (var i = 0, addedToDom = 0; i < mods.length; i++) {
       var mod = mods[i];
@@ -28,7 +28,7 @@
         var div = document.createElement('div');
         var img = document.createElement('img');
         div.classList.add('pa-dashboard-item');
-        img.setAttribute('src', imgBaseUrl + mod.name.substring(0, 5));
+        img.setAttribute('src', imgBaseUrl + mod.name.substring(0, 5) + '.gif');
         addClickListener(img, mod);
         div.appendChild(img);
         currDiv.appendChild(div);
