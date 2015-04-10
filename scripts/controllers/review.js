@@ -32,13 +32,23 @@
     var createReviewTableElement = function (room, instructorId, date,
         timeFrom, timeTo, attendance, substitute, substituteInstructor) {
       var tr = document.createElement('tr');
+      var toggleInstructorSelect = function () {
+        var checked = substituteCheckbox.checked;
+        var substituteInstructor = substituteInstructorTd
+            .querySelector('select');
+        if (!checked) {
+            substituteInstructor.setAttribute('disabled', !checked);
+        } else {
+            substituteInstructor.removeAttribute('disabled');
+        }
+      };
       var createTd = function (content, type) {
         var td = document.createElement('td');
         switch (type) {
           case 'checkbox':
             var checkbox = document.createElement('input');
             checkbox.type = 'checkbox';
-            checkbox.checked = content;
+            checkbox.checked = !!content;
             td.appendChild(checkbox);
             break;
           case 'select':
@@ -53,23 +63,28 @@
         tr.appendChild(td);
         return td;
       };
-      var roomTd = createTd(room);
-      var instructorTd = createTd(findInstructor(instructorId).instructorName);
-      var dateTd = createTd(date);
-      var timeFromTd = createTd(timeFrom);
-      var timeToTd = createTd(timeTo);
-      var attendanceTd = createTd(attendance, 'checkbox');
+      createTd(room);
+      createTd(findInstructor(instructorId).instructorName);
+      createTd(date);
+      createTd(timeFrom);
+      createTd(timeTo);
+      createTd(attendance, 'checkbox');
       var substituteTd = createTd(substitute, 'checkbox');
       var substituteInstructorTd = createTd(substituteInstructor, 'select');
+      var substituteCheckbox = substituteTd.querySelector('input');
+      toggleInstructorSelect();
+      substituteCheckbox.addEventListener('change', toggleInstructorSelect);
       var reviewTableBody = document.querySelector('.pa-review tbody');
       reviewTableBody.appendChild(tr);
+      return tr;
     };
 
     clearReviewTable();
     PA.getSchedule(function(schedule) {
       for (var i = 0; i < schedule.length; i++) {
-        createReviewTableElement(schedule[i].roomNo, schedule[i].instructorId,
-            schedule[i].day, schedule[i].timeFrom, schedule[i].timeTo);
+        var tr = createReviewTableElement(schedule[i].roomNo,
+            schedule[i].instructorId, schedule[i].day, schedule[i].timeFrom,
+            schedule[i].timeTo);
       };
     });
   };

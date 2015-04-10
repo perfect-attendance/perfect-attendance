@@ -80,10 +80,24 @@
     });
   };
 
+  var createRoomSelect = function (selectElement) {
+    PA.getRooms(function (rooms) {
+      var option = document.createElement('option');
+      option.innerHTML = '--- Select a Room ---';
+      selectElement.appendChild(option);
+      for (var i = 0; i < rooms.length; i++) {
+        option = document.createElement('option');
+        option.innerHTML = rooms[i].roomNo;
+        selectElement.appendChild(option);
+      }
+    });
+  };
+
   // export objects
   window.PA.getInstructors = getInstructors;
   window.PA.getRooms = getRooms;
   window.PA.getSchedule = getSchedule;
   window.PA.createInstructorSelect = createInstructorSelect;
+  window.PA.createRoomSelect = createRoomSelect;
   window.PA.getJSON = getJSON;
 })();

@@ -6,8 +6,8 @@
     // imports
     var PA = window.PA;
 
-    var myParagraph = document.createElement('p');
-    myParagraph.innerHTML = 'This is a paragraph that is generated from the roomsCtrl!';
-    this.mainView.appendChild(myParagraph);
+    var module = this;
+    var select = document.querySelector('.pa-rooms-select');
+    PA.createRoomSelect(select);
   };
 })();

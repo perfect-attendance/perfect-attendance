@@ -7,7 +7,7 @@
     var PA = window.PA;
 
     var module = this;
-    var select = document.querySelector('form > .pa-instructors-select');
+    var select = document.querySelector('.pa-instructors-select');
     PA.createInstructorSelect(select);
   };
 })();
