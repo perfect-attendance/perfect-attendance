@@ -78,23 +78,27 @@
     {
       "roomNo": "s525", 
       "floor": "fifth"
+      "building": "silang"
     }, 
     {
       "roomNo": "s526", 
       "floor": "fifth"
+      "building": "silang"
     }, 
     {
       "roomNo": "s527", 
       "floor": "fifth"
+      "building": "silang"
     }, 
     {
       "roomNo": "s528", 
       "floor": "fifth"
+      "building": "silang"
     },
     {
       "roomNo": "p607", 
       "floor": "sixth",
       "building": "perfecto"
-    },
+    }
   ]
 }
