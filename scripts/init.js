@@ -75,6 +75,7 @@
       for (var i = 0; i < instructors.length; i++) {
         option = document.createElement('option');
         option.innerHTML = instructors[i].instructorName;
+        option.value = instructors[i].instructorId;
         selectElement.appendChild(option);
       }
     });

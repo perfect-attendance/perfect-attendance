@@ -115,11 +115,33 @@
     window.addEventListener('hashchange', renderModuleInLocation);
   };
 
+  var isReady = function () {
+    return gotInstructors && gotSchedule && gotRooms;
+  };
+
   var gotInstructors;
   PA.getInstructors(function (instructors) {
     gotInstructors = true;
     PA.instructors = instructors; // export instructors object;
-    if (gotInstructors) {
+    if (isReady()) {
+      ready();
+    };
+  });
+
+  var gotSchedule;
+  PA.getSchedule(function (schedule) {
+    gotSchedule = true;
+    PA.schedule = schedule; // export schedule object;
+    if (isReady()) {
+      ready();
+    };
+  });
+
+  var gotRooms;
+  PA.getRooms(function (rooms) {
+    gotRooms = true;
+    PA.rooms = rooms; // export rooms object;
+    if (isReady()) {
       ready();
     };
   });
