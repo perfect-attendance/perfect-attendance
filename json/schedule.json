@@ -152,6 +152,24 @@
       "roomNo": "s521", 
       "day": "TThS", 
       "subject": "College Algebra"
+    },
+    {
+      "timeFrom": "3:00", 
+      "courseNo": 9192, 
+      "instructorId": "2100016", 
+      "timeTo": "4:00", 
+      "roomNo": "p607", 
+      "day": "TThS", 
+      "subject": "Plane and Spherical Trigonometry"
+    },
+    {
+      "timeFrom": "5:00", 
+      "courseNo": 9122, 
+      "instructorId": "2100016", 
+      "timeTo": "6:00", 
+      "roomNo": "p607", 
+      "day": "MWF", 
+      "subject": "Plane and Spherical Trigonometry"
     }
   ]
 }
