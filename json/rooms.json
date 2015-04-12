@@ -1,102 +1,102 @@
 {
   "rooms": [
     {
-      "roomNo": "s324", 
-      "floor": "third"
-      "building": "silang"
-    }, 
-    {
-      "roomNo": "s326", 
-      "floor": "third"
-      "building": "silang"
-    }, 
-    {
-      "roomNo": "s420", 
-      "floor": "fourth"
-      "building": "silang"
-    }, 
-    {
-      "roomNo": "s421", 
-      "floor": "fourth"
-      "building": "silang"
-    }, 
-    {
-      "roomNo": "s422", 
-      "floor": "fourth"
-      "building": "silang"
-    }, 
-    {
-      "roomNo": "s423", 
-      "floor": "fourth"
-      "building": "silang"
-    }, 
-    {
-      "roomNo": "s425", 
-      "floor": "fourth"
-      "building": "silang"
-    }, 
-    {
-      "roomNo": "s426", 
-      "floor": "fourth"
-      "building": "silang"
-    }, 
-    {
-      "roomNo": "s427", 
-      "floor": "fourth"
-      "building": "silang"
-    }, 
-    {
-      "roomNo": "s428", 
-      "floor": "fourth"
-      "building": "silang"
-    }, 
-    {
-      "roomNo": "s520", 
-      "floor": "fifth"
-      "building": "silang"
-    }, 
-    {
-      "roomNo": "s521", 
-      "floor": "fifth"
-      "building": "silang"
-    }, 
-    {
-      "roomNo": "s522", 
-      "floor": "fifth"
-      "building": "silang"
-    }, 
-    {
-      "roomNo": "s523", 
-      "floor": "fifth"
-      "building": "silang"
-    }, 
-    {
-      "roomNo": "s524", 
-      "floor": "fifth"
-      "building": "silang"
-    }, 
-    {
-      "roomNo": "s525", 
-      "floor": "fifth"
-      "building": "silang"
-    }, 
-    {
-      "roomNo": "s526", 
-      "floor": "fifth"
-      "building": "silang"
-    }, 
-    {
-      "roomNo": "s527", 
-      "floor": "fifth"
-      "building": "silang"
-    }, 
-    {
-      "roomNo": "s528", 
-      "floor": "fifth"
+      "roomNo": "s324",
+      "floor": "third",
       "building": "silang"
     },
     {
-      "roomNo": "p607", 
+      "roomNo": "s326",
+      "floor": "third",
+      "building": "silang"
+    },
+    {
+      "roomNo": "s420",
+      "floor": "fourth",
+      "building": "silang"
+    },
+    {
+      "roomNo": "s421",
+      "floor": "fourth",
+      "building": "silang"
+    },
+    {
+      "roomNo": "s422",
+      "floor": "fourth",
+      "building": "silang"
+    },
+    {
+      "roomNo": "s423",
+      "floor": "fourth",
+      "building": "silang"
+    },
+    {
+      "roomNo": "s425",
+      "floor": "fourth",
+      "building": "silang"
+    },
+    {
+      "roomNo": "s426",
+      "floor": "fourth",
+      "building": "silang"
+    },
+    {
+      "roomNo": "s427",
+      "floor": "fourth",
+      "building": "silang"
+    },
+    {
+      "roomNo": "s428",
+      "floor": "fourth",
+      "building": "silang"
+    },
+    {
+      "roomNo": "s520",
+      "floor": "fifth",
+      "building": "silang"
+    },
+    {
+      "roomNo": "s521",
+      "floor": "fifth",
+      "building": "silang"
+    },
+    {
+      "roomNo": "s522",
+      "floor": "fifth",
+      "building": "silang"
+    },
+    {
+      "roomNo": "s523",
+      "floor": "fifth",
+      "building": "silang"
+    },
+    {
+      "roomNo": "s524",
+      "floor": "fifth",
+      "building": "silang"
+    },
+    {
+      "roomNo": "s525",
+      "floor": "fifth",
+      "building": "silang"
+    },
+    {
+      "roomNo": "s526",
+      "floor": "fifth",
+      "building": "silang"
+    },
+    {
+      "roomNo": "s527",
+      "floor": "fifth",
+      "building": "silang"
+    },
+    {
+      "roomNo": "s528",
+      "floor": "fifth",
+      "building": "silang"
+    },
+    {
+      "roomNo": "p607",
       "floor": "sixth",
       "building": "perfecto"
     }
