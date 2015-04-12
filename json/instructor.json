@@ -79,6 +79,11 @@
       "department":"IT",
       "instructorName":"Beverly Ferrer",
       "instructorId":"2100015"
+    },
+    {
+      "department":"MATH",
+      "instructorName":"Daniel Abratique",
+      "instructorId":"2100016"
     }
   ]
 }
