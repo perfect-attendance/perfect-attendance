@@ -8,6 +8,8 @@
 
     var module = this;
     var select = document.querySelector('.pa-instructors-select');
+    var table = document.querySelector('.pa-instructors table');
+    PA.createScheduleTable(table);
     PA.createInstructorSelect(select);
   };
 })();

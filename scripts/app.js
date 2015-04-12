@@ -75,7 +75,40 @@
     }
   };
 
+  /**
+   * Preferably tableElement has the following template:
+   *
+   * <div class="table-container">
+   *   <table class="data-table">
+   *     <thead>
+   *       <tr>
+   *         <th>---</th>
+   *         <th>M</th>
+   *         <th>T</th>
+   *         <th>W</th>
+   *         <th>Th</th>
+   *         <th>F</th>
+   *         <th>S</th>
+   *       </tr>
+   *     </thead>
+   *     <tbody>
+   *     </tbody>
+   *   </table>
+   * </div>
+   */
+  var createScheduleTable = function (tableElement) {
+    var tbody = tableElement.querySelector('tbody');
+    PA.getTimeSlots().forEach(function (timeSlot) {
+      var tr = document.createElement('tr');
+      var th = document.createElement('th');
+      th.innerHTML = timeSlot;
+      tr.appendChild(th);
+      tbody.appendChild(tr);
+    });
+  };
+
   var ready = function () {
+    PA.createScheduleTable = createScheduleTable;
     PA.mods = mods;
     renderModuleInLocation();
     addMenuToggle();
