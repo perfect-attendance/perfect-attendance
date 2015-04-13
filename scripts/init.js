@@ -1,5 +1,6 @@
 /**
  * This script should be the first script loaded.
+ * Author: Irvin Denzel Torcuato
  */
 
 (function () {

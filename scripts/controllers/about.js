@@ -1,3 +1,6 @@
+/** 
+ * Author: Irvin Denzel Torcuato
+ */
 (function () {
   'use strict';
 

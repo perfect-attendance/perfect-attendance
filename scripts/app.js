@@ -7,6 +7,8 @@
  *
  * - Remember to always enclose your code in a closure to avoid pollution of
  *   the global scope.
+ *
+ * Author: Irvin Denzel Torcuato
  */
 
 (function () {
