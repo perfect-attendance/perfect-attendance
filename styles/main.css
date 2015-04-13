@@ -1,6 +1,8 @@
 /**
  * This is the main css document, and the only one linked in the source please
  * use the @import for other style declarations.
+ *
+ * Author: Irvin Denzel Torcuato
  */
 
 @import 'header.css';
