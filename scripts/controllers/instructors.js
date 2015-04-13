@@ -48,19 +48,40 @@
     };
 
     select.addEventListener('change', function () {
+      table.querySelector('tbody').innerHTML = '';
+      PA.createScheduleTable(table);
       var instructorId = select.value;
       var instructorSchedule = findSchedule(instructorId);
       var days = ['M', 'T', 'W', 'Th', 'F', 'S'];
-      days.forEach(function (day) {
+      days.forEach(function (day, i) {
         var daySched = scheduleForDay(instructorSchedule, day);
-        if (!daySched.length) {
-          return;
-        }
-        PA.getTimeSlots().forEach(function (time) {
+        var current;
+        PA.getTimeSlots().forEach(function (time, j) {
           var sched = daySched.filter(function (sched) {
             return sched.timeFrom == time;
           })[0];
-          console.log(sched);
+          if (sched) {
+            var tr = table.querySelector('tbody > tr:nth-child(' + (j + 1) + ')');
+            current = sched;
+            current.rowSpan = 1;
+            current.tr = tr;
+          }
+          if (current) {
+            if (PA.getTimeSlots()[j+1] != current.timeTo) {
+              var td = document.createElement('td');
+              td.style.backgroundColor = 'azure';
+              td.innerHTML = sched.roomNo;
+              current.td = td;
+              current.rowSpan++;
+            } else {
+              current.td.rowSpan = current.rowSpan;
+              current.tr.appendChild(current.td);
+              current = undefined;
+            }
+          } else {
+            var tr = table.querySelector('tbody > tr:nth-child(' + (j + 1) + ')');
+            tr.appendChild(document.createElement('td'));
+          }
         });
       });
     });

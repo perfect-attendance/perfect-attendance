@@ -10,19 +10,19 @@
       "subject": "Social and Professional Issues in Information Technology"
     },
     {
-      "timeFrom": "4:00",
+      "timeFrom": "16:00",
       "courseNo": 9598,
       "instructorId": "2100005",
-      "timeTo": "5:00",
+      "timeTo": "17:00",
       "roomNo": "s425",
       "day": "MWF",
       "subject": "Information System Planning"
     },
     {
-      "timeFrom": "3:00",
+      "timeFrom": "15:00",
       "courseNo": 9603,
       "instructorId": "2100005",
-      "timeTo": "4:00",
+      "timeTo": "16:00",
       "roomNo": "s425",
       "day": "MWF",
       "subject": "Information System Planning"
@@ -37,19 +37,19 @@
       "subject": "Information System Planning"
     },
     {
-      "timeFrom": "2:00",
+      "timeFrom": "14:00",
       "courseNo": 9613,
       "instructorId": "2100005",
-      "timeTo": "3:00",
+      "timeTo": "15:00",
       "roomNo": "s425",
       "day": "MWF",
       "subject": "Information System Planning"
     },
     {
-      "timeFrom": "6:00",
+      "timeFrom": "18:00",
       "courseNo": 9601,
       "instructorId": "2100009",
-      "timeTo": "7:00",
+      "timeTo": "19:00",
       "roomNo": "s527",
       "day": "MWF",
       "subject": "Technologic Presentaion and Communication"
@@ -73,19 +73,19 @@
       "subject": "Technologic Presentaion and Communication"
     },
     {
-      "timeFrom": "5:00",
+      "timeFrom": "17:00",
       "courseNo": 9616,
       "instructorId": "2100009",
-      "timeTo": "6:00",
+      "timeTo": "18:00",
       "roomNo": "s527",
       "day": "MWF",
       "subject": "Technologic Presentation and Communication"
     },
     {
-      "timeFrom": "5:00",
+      "timeFrom": "17:00",
       "courseNo": 9564,
       "instructorId": "2100012",
-      "timeTo": "6:00",
+      "timeTo": "18:00",
       "roomNo": "s527",
       "day": "TThS",
       "subject": "Personality Development"
@@ -109,10 +109,10 @@
       "subject": "Numerical Methods"
     },
     {
-      "timeFrom": "2:00",
+      "timeFrom": "14:00",
       "courseNo": 9401,
       "instructorId": "2100013",
-      "timeTo": "3:00",
+      "timeTo": "15:00",
       "roomNo": "s525",
       "day": "TThS",
       "subject": "Theory and Logic"
@@ -127,10 +127,10 @@
       "subject": "Abstract Algebra"
     },
     {
-      "timeFrom": "2:00",
+      "timeFrom": "14:00",
       "courseNo": 9513,
       "instructorId": "2100014",
-      "timeTo": "3:00",
+      "timeTo": "15:00",
       "roomNo": "s524",
       "day": "TThS",
       "subject": "College Algebra"
@@ -145,28 +145,28 @@
       "subject": "College Algebra"
     },
     {
-      "timeFrom": "2:00",
+      "timeFrom": "14:00",
       "courseNo": 9626,
       "instructorId": "2100013",
-      "timeTo": "3:00",
+      "timeTo": "15:00",
       "roomNo": "s521",
       "day": "TThS",
       "subject": "College Algebra"
     },
     {
-      "timeFrom": "3:00",
+      "timeFrom": "15:00",
       "courseNo": 9192,
       "instructorId": "2100016",
-      "timeTo": "4:00",
+      "timeTo": "16:00",
       "roomNo": "p607",
       "day": "TThS",
       "subject": "Plane and Spherical Trigonometry"
     },
     {
-      "timeFrom": "5:00",
+      "timeFrom": "17:00",
       "courseNo": 9122,
       "instructorId": "2100016",
-      "timeTo": "6:00",
+      "timeTo": "18:00",
       "roomNo": "p607",
       "day": "MWF",
       "subject": "Plane and Spherical Trigonometry"
